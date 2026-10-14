@@ -1,0 +1,22 @@
+runtime/private/
+runtime/android/apk-build/
+output/
+__pycache__/
+*.pyc
+*.p12
+*.jks
+*.idsig
+
+# Large runtime inputs and local media are reconstructed/provided locally.
+runtime/android/raspbx-android-armhf.tar.gz
+runtime/android/native/*.so
+runtime/android/native/*.deb
+*.apk
+*.img
+*.zip
+*.mp3
+*.wav
+*.ulaw
+*.keystore
+*.pem
+*.key

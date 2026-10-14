@@ -1,0 +1,23 @@
+RasPBX Android Lab prototype
+
+The FreePBX interface, Asterisk, MariaDB, PHP and Linux userspace are extracted
+from the user-provided raspbx-04-04-2018.img. Original package copyright and
+license files remain inside the filesystem. The source image is not modified.
+
+PRoot Android and its dependencies are supplied by the official Termux package
+repository. Native library filenames are adjusted for Android APK extraction;
+the reproducible patch is in tools/prepare_android_native.py.
+Package versions, download URLs and SHA256 values are in native-provenance.json.
+
+PRoot GPL-2.0-or-later source:
+https://github.com/termux/proot/tree/v5.1.107.96
+Termux package recipes and library sources:
+https://github.com/termux/termux-packages/tree/master/packages/proot
+https://github.com/termux/termux-packages/tree/master/packages/libtalloc
+https://github.com/termux/termux-packages/tree/master/packages/libandroid-shmem
+FreePBX GPL/AGPL module sources:
+https://github.com/FreePBX
+Asterisk GPL source:
+https://github.com/asterisk/asterisk/tree/13.20.0
+
+This is a local experimental build, not an official RasPBX/FreePBX Android release.

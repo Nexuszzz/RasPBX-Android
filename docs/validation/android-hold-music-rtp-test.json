@@ -1,0 +1,10 @@
+{
+  "class": "praktikum_dj",
+  "test_extension": "289",
+  "rtp_pcmu_packets": 112,
+  "exact_source_payload_matches": 112,
+  "nonconstant_source_payload_matches": 100,
+  "ulaw_sha256": "ab0512c84392a466870ba79b234d705d5bd8f94c36b0696cbcc39e435861d65c",
+  "human_softphones_touched": false,
+  "microphone_speaker_tested": false
+}

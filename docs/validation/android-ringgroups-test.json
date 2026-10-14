@@ -1,0 +1,93 @@
+{
+  "results": [
+    {
+      "group": "257",
+      "strategy": "ringall",
+      "events": [
+        {
+          "extension": "202",
+          "event": "ring",
+          "seconds": 1.172
+        },
+        {
+          "extension": "201",
+          "event": "ring",
+          "seconds": 1.187
+        },
+        {
+          "extension": "201",
+          "event": "answer",
+          "seconds": 2.703
+        },
+        {
+          "extension": "202",
+          "event": "cancel",
+          "seconds": 2.75
+        }
+      ],
+      "ring_gap_seconds": 0.015,
+      "early_music_rtp": {
+        "packets": 81,
+        "nonconstant_pcmu_packets": 80
+      },
+      "media": {
+        "direction": "203 -> 201",
+        "answered": true,
+        "seconds": 4,
+        "rtp_received": {
+          "203": 197,
+          "201": 197
+        },
+        "pcmu_tone_payload_matches": {
+          "203": 197,
+          "201": 197
+        }
+      }
+    },
+    {
+      "group": "258",
+      "strategy": "hunt",
+      "events": [
+        {
+          "extension": "201",
+          "event": "ring",
+          "seconds": 0.953
+        },
+        {
+          "extension": "201",
+          "event": "cancel",
+          "seconds": 20.953
+        },
+        {
+          "extension": "202",
+          "event": "ring",
+          "seconds": 21.078
+        },
+        {
+          "extension": "202",
+          "event": "answer",
+          "seconds": 22.578
+        }
+      ],
+      "ring_gap_seconds": 20.125,
+      "early_music_rtp": {
+        "packets": 1081,
+        "nonconstant_pcmu_packets": 1079
+      },
+      "media": {
+        "direction": "203 -> 202",
+        "answered": true,
+        "seconds": 4,
+        "rtp_received": {
+          "203": 198,
+          "202": 198
+        },
+        "pcmu_tone_payload_matches": {
+          "203": 198,
+          "202": 198
+        }
+      }
+    }
+  ],
+  "microphone_speaker_tested": false
+}

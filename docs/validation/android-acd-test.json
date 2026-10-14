@@ -1,0 +1,47 @@
+{
+  "configured_queue": "259",
+  "isolated_test_queue": "299",
+  "strategy": "rrmemory",
+  "both_busy_wait_seconds": 4.5,
+  "no_busy_agent_rung": true,
+  "music": {
+    "rtp_packets": 164,
+    "source_payload_matches": 164,
+    "nonconstant_source_payload_matches": 160
+  },
+  "successive_agents": [
+    "291",
+    "292"
+  ],
+  "conversation_rtp": [
+    {
+      "direction": "293 -> 291",
+      "answered": true,
+      "seconds": 4,
+      "rtp_received": {
+        "293": 212,
+        "291": 197
+      },
+      "pcmu_tone_payload_matches": {
+        "293": 198,
+        "291": 197
+      }
+    },
+    {
+      "direction": "293 -> 292",
+      "answered": true,
+      "seconds": 4,
+      "rtp_received": {
+        "293": 202,
+        "292": 196
+      },
+      "pcmu_tone_payload_matches": {
+        "293": 198,
+        "292": 196
+      }
+    }
+  ],
+  "source_ulaw_sha256": "2b6544d8336224b440d0a5127b545898b87bcf5e97da1013fc4ceff3ec45359c",
+  "human_softphones_touched": false,
+  "microphone_speaker_tested": false
+}

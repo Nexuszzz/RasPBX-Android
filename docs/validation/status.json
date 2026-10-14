@@ -1,0 +1,12 @@
+{
+  "apk_version": "0.2.1-lab",
+  "min_sdk": 26,
+  "target_sdk": 28,
+  "apk_frontend_startup_observed": "READY and Java foreground service observed on the Redmi after manual update",
+  "freepbx_http_status": 200,
+  "sip_registration_tested": true,
+  "ringgroups_rtp_tested": true,
+  "acd_waiting_distribution_rtp_tested": true,
+  "microphone_speaker_tested_by_automation": false,
+  "screens_off_endurance_tested": false
+}
